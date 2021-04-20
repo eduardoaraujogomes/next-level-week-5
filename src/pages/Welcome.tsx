@@ -1,12 +1,18 @@
-import React, { useState } from 'react';
-import { SafeAreaView, Text, Image, StyleSheet } from 'react-native';
+import React from 'react';
+import {
+    SafeAreaView,
+    Text,
+    Image,
+    StyleSheet,
+    TouchableOpacity,
+    Dimensions
+} from 'react-native';
+import { Feather } from '@expo/vector-icons';
 
 import wateringImg from '../assets/watering.png';
-import { Button } from '../components/Button';
 import colors from '../styles/colors';
 
 export function Welcome() {
-    const [visible, setVisible] = useState(false);
     return (
         <SafeAreaView style={styles.container}>
             <Text style={styles.title}>
@@ -15,12 +21,29 @@ export function Welcome() {
                 de forma fácil
             </Text>
 
-            <Image style={styles.image} source={wateringImg} />
+            <Image
+                style={styles.image}
+                source={wateringImg}
+                resizeMode="contain"
+            />
+
             <Text style={styles.subtitle}>
                 Não esqueça mais de regar suas plantas.
                 Nós cuidamos de lembrar você sempre que precisar.
             </Text>
-            <Button title='>' />
+
+            <TouchableOpacity
+                style={styles.button}
+                activeOpacity={0.7}
+            >
+                <Text style={styles.buttonText}>
+                    <Feather
+                        name="chevron-right"
+                        style={styles.buttonIcon}
+                    />
+                </Text>
+            </TouchableOpacity>
+
         </SafeAreaView>
     );
 }
@@ -29,7 +52,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        justifyContent: 'space-between'
+        justifyContent: 'space-around'
     },
     title: {
         fontSize: 32,
@@ -44,6 +67,9 @@ const styles = StyleSheet.create({
         paddingHorizontal: 20,
         color: colors.heading
     },
+    image: {
+        height: Dimensions.get('window').width * 0.7,
+    },
     button: {
         backgroundColor: colors.green,
         justifyContent: 'center',
@@ -53,12 +79,8 @@ const styles = StyleSheet.create({
         height: 56,
         width: 56,
     },
-    image: {
-        width: 292,
-        height: 284,
-    },
-    buttonText: {
-        color: colors.white,
-        fontSize: 24
+    buttonIcon: {
+        fontSize: 32,
+        color: colors.white
     }
 });
