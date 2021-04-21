@@ -121,6 +121,8 @@ export function PlantSelect() {
                     horizontal
                     showsHorizontalScrollIndicator={false}
                     contentContainerStyle={styles.environmentList}
+                    ListHeaderComponent={<View />}
+                    ListHeaderComponentStyle={{ marginRight: 32 }}
                 />
             </View>
 
@@ -172,7 +174,6 @@ const styles = StyleSheet.create({
         height: 40,
         justifyContent: 'center',
         paddingBottom: 5,
-        marginLeft: 32,
         marginVertical: 32
     },
     plants: {
