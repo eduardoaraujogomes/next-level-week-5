@@ -14,7 +14,7 @@ interface PlantProps extends RectButtonProps {
     data: {
         name: string;
         photo: string;
-        hour: string;
+        hour?: string;
     };
 }
 
