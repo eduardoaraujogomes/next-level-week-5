@@ -33,7 +33,6 @@ export function PlantCardSecondary({ data, handleRemove, ...rest }: PlantProps) 
                             style={styles.buttonRemove}
                             onPress={handleRemove}
                         >
-
                             <Feather name="trash" size={32} color={colors.white}
                             />
 
