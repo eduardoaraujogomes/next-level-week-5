@@ -45,7 +45,7 @@ Several places use plants, be it their home or business, and nowadays the human 
 *Clone the project and access the folder*
 
 ```bash
-$ git clone https://github.com/hmartiins/plantmanager 
+$ git clone https://github.com/eduardoaraujogomes/next-level-week-5.git
 $ cd plantmanager
 ```
 
@@ -72,6 +72,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <hr>
 <div align="center">
-  <sub>Copyright © 2021-present, hmartiins.</sub>
+  <sub>Copyright © 2021-present, eduaraujogomes.</sub>
 </div>
 <hr>
