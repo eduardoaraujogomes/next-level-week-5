@@ -4,7 +4,7 @@
   <p>🌱 Application to remind people to water their plants 🌱</p>
   <p>
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/hmartiins/plantmanager?color=%232196F3">
-    <a href="https://www.linkedin.com/in/henrique-martins-5b2bb71a5/" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/in/eduaraujofilho/" target="_blank" rel="noopener noreferrer">
       <img alt="Made by" src="https://img.shields.io/badge/made%20by-Henrique%20Martins-%232196F3">
     </a>          
     <img alt="GitHub" src="https://img.shields.io/github/license/hmartiins/plantmanager?color=%232196F3">
