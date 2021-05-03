@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
     },
     spotlight: {
         backgroundColor: colors.blue_light,
-        paddingHorizontal: 20,
+        paddingHorizontal: 19,
         borderRadius: 20,
         height: 110,
         flexDirection: 'row',
