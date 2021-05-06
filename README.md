@@ -18,7 +18,6 @@ Several places use plants, be it their home or business, and nowadays the human 
 <img align="center" src="https://i.imgur.com/UJphh3a.png">
 
 <br>
-<br>
 
 
 # 🚀 Technologies
