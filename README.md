@@ -69,8 +69,3 @@ $ yarn start
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<hr>
-<div align="center">
-  <sub>Copyright © 2021-present, eduaraujogomes.</sub>
-</div>
-<hr>
