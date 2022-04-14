@@ -11,6 +11,7 @@
   </p>
 </div>
 
+
 # 👀 About
 
 Several places use plants, be it their home or business, and nowadays the human being is more and more busy, so he ends up forgetting to water his plants. Plantmanager came to solve this problem, with this application you will know when and how to water your plants !!
